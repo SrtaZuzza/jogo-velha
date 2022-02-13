@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+
+    <h1>Jogo da velha</h1>
+
+    <main>
+        <div id="1" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="2" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="3" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="4" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="5" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="6" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="7" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="8" class="azulejo" onclick="pickSpot(this.id)">-</div>
+        <div id="9" class="azulejo" onclick="pickSpot(this.id)">-</div>
+    </main>
+
+    <div class="jogador">
+        <label for=""> Jogador</label>
+        <label for="" id="jogadorSelecionado"></label>
+    </div>
+
+    <div class="vencedor">
+        <label for="">Vencedor</label>
+        <label for="" id="vencedorSelecionado"></label>
+    </div>
+
+    <button onclick="reiniciar()">Reiniciar</button>
+    <script src="script.js"></script>
+</body>
+</html>
