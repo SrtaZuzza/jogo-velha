@@ -1,4 +1,4 @@
-# Jogo da velha
+# Jogo da velha 👵💕
 
 Projeto realizado através do curso "Criando seu próprio jogo da velha com HTML e Javascript" da Digital Innovation One.
 
